@@ -1,3 +1,21 @@
+@font-face {
+  font-family: "Myriad Set Pro";
+  src: url("fonts/myriad-set-pro_medium.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Myriad Set Pro";
+  src: url("fonts/myriad-set-pro_thin.ttf") format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Myriad Set Pro";
+  src: url("fonts/myriad-set-pro_ultralight.ttf") format("truetype");
+  font-weight: 100;
+}
+
 /* NAVBAR */
 
 nav {
@@ -7,6 +25,8 @@ nav {
 
 .dropdown-menu {
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+  font-family: "Myriad Set Pro"; 
+  font-weight: 500;
 }
 
 .nav-item {
@@ -15,6 +35,8 @@ nav {
 
 .navbar-brand {
   font-size: 24px;
+  font-family: "Myriad Set Pro"; 
+  font-weight: 500;
 }
 
 /* ABOUT ME */
@@ -55,12 +77,16 @@ nav {
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 20px;
+  font-family: "Myriad Set Pro"; 
+  font-weight: 500;
 }
 
 .about-me > p {
   font-size: 12px;
   padding-left: 20px;
   padding-right: 20px;
+  font-family: "Myriad Set Pro"; 
+  font-weight: 500;
 }
 
 .about-me > p:last-child {
@@ -76,6 +102,8 @@ nav {
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.417);
   padding-bottom: 50px;
   padding-top: 20px;
+  font-family: "Myriad Set Pro"; 
+  font-weight: 500;
 }
 
 .my-work-img > img {
@@ -89,6 +117,8 @@ nav {
   padding-top: 20px;
   padding-bottom: 20px;
   font-size: 24px;
+  font-family: "Myriad Set Pro"; 
+  font-weight: 500;
 }
 
 @media (max-width: 768px) {
@@ -149,6 +179,8 @@ h2 > a:hover {
 
 .skills {
   padding: 50px;
+  font-family: "Myriad Set Pro"; 
+  font-weight: 500;
 }
 
 .skills-items {
@@ -204,6 +236,8 @@ h2 > a:hover {
   text-align: center;
   background-color: rgb(242, 242, 242);
   padding-top: 30px;
+  font-family: "Myriad Set Pro"; 
+  font-weight: 500;
 }
 
 #contact-me > a {
@@ -241,4 +275,8 @@ h2 > a:hover {
 
 #link-alt > a:hover {
   color: grey;
+}
+
+#footer-head {
+  font-size: 20px;
 }
